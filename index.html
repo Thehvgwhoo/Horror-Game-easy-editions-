@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scary Quiz</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="quiz-container">
+        <h1>Scary Quiz</h1>
+        <div id="quiz">
+            <div class="question-container" data-question="1">
+                <p>Question 1: What is the capital of France?</p>
+                <button class="answer-btn" data-correct="false">A. Berlin</button>
+                <button class="answer-btn" data-correct="true">B. Paris</button>
+                <button class="answer-btn" data-correct="false">C. Rome</button>
+                <button class="answer-btn" data-correct="false">D. Madrid</button>
+            </div>
+            <div class="question-container" data-question="2">
+                <p>Question 2: What is 2 + 2?</p>
+                <button class="answer-btn" data-correct="false">A. 3</button>
+                <button class="answer-btn" data-correct="true">B. 4</button>
+                <button class="answer-btn" data-correct="false">C. 5</button>
+                <button class="answer-btn" data-correct="false">D. 6</button>
+            </div>
+            <div class="question-container" data-question="3">
+                <p>Question 3: What is the color of the sky?</p>
+                <button class="answer-btn" data-correct="false">A. Green</button>
+                <button class="answer-btn" data-correct="true">B. Blue</button>
+                <button class="answer-btn" data-correct="false">C. Red</button>
+                <button class="answer-btn" data-correct="false">D. Yellow</button>
+            </div>
+        </div>
+    </div>
+    <div id="jumpscare">
+        <img src="jumpscare.jpg" alt="Jump Scare">
+        <audio id="scream-sound" src="scream.mp3"></audio>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
